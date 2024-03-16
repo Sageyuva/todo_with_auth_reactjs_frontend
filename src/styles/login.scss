@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Grape+Nuts&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Mochiy+Pop+P+One&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,800&family=Poppins:ital,wght@0,300;1,200&family=Righteous&family=Roboto+Mono:wght@700&family=Smooch&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+form{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden;
+    gap: 10px;
+    padding: 10px 20px;
+
+    input{
+        width: 90%;
+        padding: 10px 20px;
+        background-color: #e6e6e6;
+        border-radius: 12px;
+        font-size: 1rem;
+        font-weight: 500;
+
+        
+    }
+    button{
+        background-color: blue;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 12px;
+        font-size: 1rem;
+        transition: 0.5s ease;
+        cursor: pointer;
+        font-weight: 500;
+        transition: 0.2s ease;
+    }
+    button:hover{
+        scale: 1.1;
+        transition: 0.2s ease;
+    }
+    button:active{
+        scale: 0.9;
+        transition: 0.2s ease;
+    }
+    .links{
+        color: blue;
+    }
+}
+}
+
+.addmain{
+    width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    input{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 80%;
+        padding: 10px 15px;
+        background-color: #d9d9d9;
+        margin: 10px;
+        border-radius: 12px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        
+    }
+    button{
+        background-color: green;
+        border-radius: 12px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 5px 30px;
+        color: white;
+        transition: 0.2s ease;
+    }
+    button:hover{
+        scale: 1.1;
+    }
+    button:active{
+        scale: 0.8;
+    }
+}
+}
+
+.Home-Main{
+    width: 100%;
+    height: 100vh;
+    scrollbar-width: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    overflow: scroll;
+
+    .Nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+
+        .addbtn{
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: green;
+  font-weight: 900;
+  color: white;
+  border-radius: 12px;
+  border: none;
+        }
+        .log-btn{
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: blue;
+            font-weight: 900;
+            color: white;
+            border-radius: 12px;
+            border: none;
+
+        }
+        button{
+            scale: 1;
+            transition: 0.2s ease;
+        }
+        button:hover{
+            scale: 1.1;
+        }
+        button:active{
+            scale: 0.9;
+        }
+    }
+    .Todos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        scrollbar-width: 0%;
+        width: 100%;
+
+        .todoitem{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            font-weight: 900;
+            padding: 5px 10px;
+            font-size: 1.5rem;
+            border-radius: 12px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+            .butt{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding: 5px 10px;
+
+
+                button{
+                    scale: 1;
+                    transition: 0.2s ease;
+                }
+                button:hover{
+                    scale: 1.1;
+                }
+                button:active{
+                    scale: 0.9;
+                } 
+
+                .edit{
+background-color: blue;
+color: white;
+padding: 5px 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+                }
+                .delete{
+background-color: red;
+color: white;
+padding: 5px 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+                }
+
+            }
+        }
+    }
+    .Toddos::-webkit-scrollbar{
+        display: none;
+    }
+}
+.Home-Main::-webkit-scrollbar{
+    display: none;
+}
